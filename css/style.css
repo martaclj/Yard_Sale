@@ -8,3 +8,35 @@
 body {
   font-family: Quicksand, sans-serif;
 }
+.banner {
+  background-color: var(--hospital-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.banner-image {
+  width: 200px;
+  margin-right: 20px;
+}
+.banner-content {
+  text-align: center;
+}
+.banner-title {
+  font-size: 2.5rem;
+  color: var(--white);
+}
+.banner-subtitle {
+  font-size: 1.5rem;
+  color: var(--white);
+}
+.primary-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: var(--white);
+  color: var(--black);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
